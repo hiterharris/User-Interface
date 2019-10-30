@@ -64,3 +64,138 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+hr {
+	margin: 0% 5%;
+}
+
+/* -- NAV BAR -- */
+.nav {
+	padding-bottom: 8%;
+}
+
+nav {
+	text-align: center;
+	background-color: #4266B2;
+	padding: 2%;
+	position: fixed;
+	width: 100%;
+}
+
+.nav-links {
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 20px;
+}
+
+nav a {
+	color: lightgrey;
+	font-size: 24px;
+	text-decoration: none;
+	margin: 40px;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 2px;
+}
+
+.logo {
+	width: 20%;
+	margin: 0% 5%;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+/* -- HERO SECTION -- */
+.hero {
+	text-align: center;
+	padding: 5% 0%;
+}
+
+.hero-title {
+	display: inline-block;
+	text-align: center;
+	width: 28%;
+	margin: 8%;
+	vertical-align: top;
+}
+
+.hero-title h1 {
+	text-align: center;
+	font-size: 120px;
+}
+
+.hero-title button {
+	padding: 2% 14%;
+	background: none;
+	border: 2px solid black;
+	font-size: 28px;
+}
+
+.hero-image {
+	width: 38%;
+}
+
+/* -- CONTENT SECTION -- */
+.content {
+	margin: 0% 5%;
+}
+
+.content-top .content-info {
+	width: 46%;
+	display: inline-block;
+	padding: 3% 0%;
+}
+
+.content-info h3 {
+	font-size: 24px;
+}
+
+.content-info p {
+	font-size: 24px;
+	line-height: 30px;
+	font-family: 'Lato', sans-serif;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.content-bottom .content-info {
+	width: 32%;
+	display: inline-block;
+	padding: 3% 0%;
+}
+
+/* -- CONTACT SECTION -- */
+.contact {
+	margin: 2% 0%;
+}
+.contact h3, p, a {
+	font-size: 24px;
+	font-family: 'Lato', sans-serif;
+}
+.contact h3 {
+	margin: 2% 5%;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.contact p {
+	margin: 2% 5%;
+}
+
+.contact a {
+	margin: 2% 5%;
+}
+
+.contact-page {
+	text-align: center;
+}
+
+/* -- FOOTER -- */
+footer {
+	text-align: center;
+	font-size: 24px;
+	margin: 5%;
+}
