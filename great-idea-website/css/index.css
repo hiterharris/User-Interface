@@ -64,3 +64,62 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* -- NAV BAR -- */
+nav {
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+	margin: 2%;
+}
+
+.nav-links {
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 30px;
+}
+
+nav a {
+	color: lightgrey;
+	font-size: 24px;
+	text-decoration: none;
+	margin: 50px;
+}
+
+.logo {
+	width: 20%;
+	margin: 0% 5%;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+/* -- HERO SECTION -- */
+.hero {
+	text-align: center;
+	padding: 5% 0%;
+}
+
+.hero-title {
+	display: inline-block;
+	text-align: center;
+	width: 28%;
+	margin: 8%;
+	vertical-align: top;
+}
+
+.hero-title h1 {
+	text-align: center;
+	font-size: 120px;
+}
+
+.hero-title button {
+	padding: 2% 14%;
+	background: none;
+	border: 2px solid black;
+	font-size: 28px;
+}
+
+.hero-image {
+	width: 38%;
+}
