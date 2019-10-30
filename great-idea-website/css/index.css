@@ -70,11 +70,16 @@ hr {
 }
 
 /* -- NAV BAR -- */
+.nav {
+	padding-bottom: 8%;
+}
+
 nav {
-	font-family: 'Titillium Web', sans-serif;
 	text-align: center;
 	background-color: #4266B2;
 	padding: 2%;
+	position: fixed;
+	width: 100%;
 }
 
 .nav-links {
@@ -88,6 +93,8 @@ nav a {
 	font-size: 24px;
 	text-decoration: none;
 	margin: 40px;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 2px;
 }
 
 .logo {
@@ -147,6 +154,7 @@ h3 {
 .content-info p {
 	font-size: 24px;
 	line-height: 30px;
+	font-family: 'Lato', sans-serif;
 }
 
 .middle-img {
@@ -165,11 +173,12 @@ h3 {
 }
 .contact h3, p, a {
 	font-size: 24px;
-	/* margin: 2%;
-	margin-left: 5%; */
+	font-family: 'Lato', sans-serif;
 }
 .contact h3 {
 	margin: 2% 5%;
+	font-weight: bold;
+	text-decoration: underline;
 }
 
 .contact p {
@@ -178,6 +187,10 @@ h3 {
 
 .contact a {
 	margin: 2% 5%;
+}
+
+.contact-page {
+	text-align: center;
 }
 
 /* -- FOOTER -- */
