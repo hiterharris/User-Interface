@@ -65,11 +65,14 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+body {
+	margin: 5%;
+}
+
 /* -- NAV BAR -- */
 nav {
 	font-family: 'Titillium Web', sans-serif;
 	text-align: center;
-	margin: 2%;
 }
 
 .nav-links {
@@ -82,7 +85,7 @@ nav a {
 	color: lightgrey;
 	font-size: 24px;
 	text-decoration: none;
-	margin: 50px;
+	margin: 40px;
 }
 
 .logo {
@@ -123,3 +126,47 @@ h3 {
 .hero-image {
 	width: 38%;
 }
+
+/* -- CONTENT SECTION -- */
+.content-top .content-info {
+	width: 46%;
+	display: inline-block;
+	padding: 3% 0%;
+}
+
+.content-info h3 {
+	font-size: 24px;
+}
+
+.content-info p {
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.content-bottom .content-info {
+	width: 32%;
+	display: inline-block;
+	padding: 3% 3%;
+}
+
+/* -- CONTACT SECTION -- */
+.contact {
+	margin: 2% 0%;
+}
+.contact h3, p, a {
+	font-size: 24px;
+	margin: 2%;
+	margin-left: 0%;
+}
+
+/* -- FOOTER -- */
+footer {
+	text-align: center;
+	font-size: 24px;
+	margin: 10%;
+}
+
